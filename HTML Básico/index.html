@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br"> <!--Usado para identificar o idioma utilizado na página-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha primeira página</title> <!--Título da página-->
+</head>
+
+<body>
+
+    <a href="#identificador">Ir até o identificador</a>
+    <!--Colocando um id no link você redireciona o usuário diretamente para onde o id aponta(no caso para a div)-->
+
+    <h1>Esse é o meu primeiro título</h1>
+    <h2>Esse é o meu primeiro título</h2>
+    <h3>Esse é o meu primeiro título</h3>
+    <h4>Esse é o meu primeiro título</h4>
+    <h5>Esse é o meu primeiro título</h5>
+    <h6>Esse é o meu primeiro título</h6>
+
+    <p>Esse é o meu primero parágrafo</p>
+
+    <p>
+        A área de <b>TI</b> foi uma <em> que mais</em> <i>cresceram</i> nos últimos <strong>anos</strong>
+        <!--A tag <b></b> deixa o conteúdo visualmente destacado-->
+        <!--A tag <strong></strong> deixa o conteúdo visualmente em negrito, e também destacado para o navegador-->
+        <!--A tag <i></i> deixa o conteúdo dentro dela em italico-->
+        <!--A tag <em></em> deixa o conteúdo dentro dela em italico e destaca ela para o navegador-->
+    </p>
+
+    <p>A área <sub><small>área</small></sub> de TI <mark>foi uma das que mais cresceram nos últimos anos</mark> </p>
+    <!--A tag mark deixa o conteúdo dentro dela marcado, como se fosse um marca texto-->
+    <!--A tag small deixa o conteúdo dentro dela um pouco menor que o normal-->
+    <!--A tag sub deixa o texto subscrito a linha original-->
+
+    <h2>2<sup>2</sup>=4</h2>
+    <!--A tag sup permite escrever um texto superescrito a linha normal-->
+
+    <p><del>Esse conteúdo não é mais relevante</del></p>
+    <!--A tag del serve para mostrar que um conteúdo foi alterado ou que ele não é mais relevante-->
+
+    <p><ins>Esse é um texto sublinhado</ins></p>
+    <!--A tag ins sublinha o texto nela envolvido-->
+
+    <p>Efetuando uma quebra de linha <br> Linha quebrada</p>
+    <!--A tag br serve para quebrar a linha-->
+
+    <a href="pagina1.html" target="_blank">Link para a página 1</a> <br>
+    <a href="pagina2.html" target="_blank">Link para a página 2</a><br>
+    <!--Para criar um link para outra página basta utilizar a tag <a> e endereçar a página dentro do href-->
+    <!--A propriedade targe="_blank" serve para o fazer com que o link seja aberto em outra página-->
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"
+        width="200px" alt="Logo do facebook"> <br>
+    <!--A tag img permite colocar qualquer imagem dentro do seu site-->
+    <!--O Atributo width permite redimensionar o tamanho da imagem dentro do seu site-->
+
+    <div id="identificador">Identeficador</div>
+    <!--Ao colocar um id na div, você deixa ela marcada, e assim você pode fazer qualquer coisa com ela-->
+
+    <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"
+            width="200px" alt="Logo do facebook">
+        <figcaption>Logo do Facebook</figcaption>
+        <!--A tag figure serve para unir a imagem ao texto, fazendo com que uma pertença a outra-->
+        <!--A tag figcaption serve para inserir uma legenda a imagem dentro da figure -->
+    </figure>
+
+    <h1>Minha compras</h1>
+
+    <ul>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Macarrão</li>
+    </ul>
+    <!--A tag ul serve para fazer listas não ordenadas, onde a ordem não importa-->
+
+    <h1>Lista de prioridades</h1>
+
+    <ol reversed>
+        <li>Treinar o que eu aprendi no curso</li>
+        <li>Assistir novamente as aulas que tiver dificuldade</li>
+        <li>Inventar coisas para usar o que aprendeu</li>
+    </ol>
+    <!--A tag ol serve para fazer listas ordenadas, onde a ordem importa-->
+    <!--O Atributo reversed serve para alterar a ordem da lista, de crescente para decrescente-->
+
+    <h1>Minha lista com números romanos</h1>
+
+    <ol type="I">
+        <li>Ascender o fogo</li>
+        <li>Fazer minha comida</li>
+        <li>Apagar o fogo</li>
+    </ol>
+    <!--Para fazer uma lista com números romanos basta colocar o type como ="I"-->
+
+    <h1>Lista de contatos</h1>
+
+    <ul>
+        <li>
+            <b>Nome:</b> José Silva <br>
+            <b>Site:</b> <a href="https://programadorbr.com" target="_blank">programadorbr.com </a><br>
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Marcela Alves <br>
+            <b>Tel:</b> <a href="tel:+5521444444">+5521444444 </a> <br>
+            <!--A propriedade tel leva diretamente o usuário para a ligação-->
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Gabriel Junior <br>
+            <b>Whatsapp:</b> <a href="https://wa.me/+5521444444" target="_blank"> +5521444444</a> <br>
+            <!--Usando esse link universal do whatsapp voê leva o usuário diretamente para o seu número-->
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Luis Eduardo <br>
+            <b>Instagram:</b> <a href="instagram://user?username=luis_eduardo2503" target="_blank"> luis_eduardo2503</a> <br>
+        </li>
+        <br>
+        <li>
+            <b>Nome:</b> Rodrigo Pleno <br>
+            <b>Email:</b> <a href="mailto:rodrigopleno@hotmail.com ">rodrigopleno@hotmail.com</a><br>
+        </li>
+    </ul>
+
+</body>
+
+</html>
