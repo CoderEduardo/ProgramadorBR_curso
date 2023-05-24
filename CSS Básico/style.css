@@ -1,0 +1,147 @@
+@font-face {
+    font-family: RushTurbo;
+    src: url(./fontes/RushTurbo.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./fontes/Roboto.ttf);
+}
+
+body{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: white;
+    background-color: black;
+}
+
+.fundo-azul{
+    background-color: blue;
+}
+
+.texto-amarelo{
+    color: yellow;
+}
+
+.imagem1{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    background-image: url("imagens/Fundo_abstrato.jpg");
+    background-size: cover;
+    /*O background-size: cover; faz com que a imagem acabe cubrindo toda a div*/
+}
+
+.imagem2{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(240, 17, 17);
+    background-image: url("imagens/BackgroundImage.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: bottom right; /*Direciona a imagem para qualquer lugar dentro do fundo*/
+    /*O background-repeat:no-repeat faz com que a imagem não se repita, e assuma por padrão o seu tamanho original*/
+}
+
+.imagem3{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    background-image: url("imagens/Fundo_abstrato.jpg");
+    background-repeat: repeat-x;
+    /*O background-repeat:repeat x faz com que a imagem se repita apenasa na horizontal*/
+}
+
+.imagem4{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    background-image: url("imagens/Fundo_abstrato.jpg");
+    background-repeat: repeat-y;
+    /*O background-repeat: repeat-y; faz com que a imagem se repita apenas na vertical*/
+}
+
+.verde{
+    height: 100px;
+    background-color: green;
+    background: linear-gradient(to right,green, rgb(28, 173, 28), rgb(141, 221, 141))
+}
+
+.fonte-em{
+    font-size: 2em; /*A fonte com em faz referência ao tamanho que ela deveria ter, ou seja, 2 em multiplica ela por 2, tendo o dobro de tamanho*/
+}
+
+/*A unidade de medida vh é relativa ao tamanho da altura da janela, e a unidade de medida vw é relativa ao tamanho da largura da janela*/
+
+.borda{
+    width: 100px;
+    height: 100px;
+    border: solid red 1px;
+}
+
+.overflow-teste{
+    width: 300px;
+    height: 300px;
+    overflow:auto; /*Com o overflow:auto fazemos com que o css entenda a onde o conteúdo está vazando, assim ele percebe isso e inseri uma barra de scroll
+    Também podemos usar o overflow-x:hidden, onde ele esconde apenas para a horizontal, e o overflow-y:hidden esconde para a vertical*/
+}
+
+.teste-centralizar{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin: 0 auto; /*Essa é uma das formas de centralizar uma div*/
+}
+
+.centralizar-imagem{
+    text-align: center; /*Ao envolver uma imagem com uma div podemos centralizar ela dessa forma*/
+}
+
+a{
+    background-color: cornflowerblue;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background-color: rgb(158, 190, 248);
+    padding: 25px;
+} /*Para quando o mouse passar por cima ter mudanças*/
+
+a:active{
+    background-color: black;
+} /*Para quando o mouse estiver clicado ter mudanças*/
+
+/*
+a:visited{
+    background-color: black;
+}*/
+
+ul{
+    background-color: #09c;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+ol{
+    background-color: #09c;
+    padding: 20px;
+}
+
+li{
+    list-style: upper-alpha;
+    background-color: rgb(255, 192, 3);
+    padding: 15px;
+    margin: 20px;
+    cursor: url('imagens/logo-16.png'),pointer; /*É uma forma de usar uma imagem exter como um cursor*/
+}
+
+li:hover{
+    background-color: rgb(246, 223, 152);
+}

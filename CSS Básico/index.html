@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Básico</title>
+
+    <!--
+    <style>
+        p{
+            color: blue;
+            background-color: brown;
+        }
+        /*Dessa forma podemos mudar os atributos de todos os elementos presentes dentro do style*/
+    </style>-->
+
+</head>
+
+<body>
+
+    <h1>Mudando a cor da fonte e o fundo de alguns elementos com css inline</h1>
+
+    <p style="color:red; background-color: yellow;">Lorem Ipsum é simplesmente uma simulação de texto da indústria
+        tipográfica e de impressos, e vem sendo utilizado
+        desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um
+        livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+        eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou
+        decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de
+        editoração eletrônica como Aldus PageMaker.</p>
+    <!--Nesse exemplo usamos o css inline, através do atributo style-->
+
+    <h1>Mudando a cor da fonte e o fundo de alguns elementos com css interno</h1>
+    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria
+        tipográfica e de impressos, e vem sendo utilizado
+        desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um
+        livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+        eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou
+        decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de
+        editoração eletrônica como Aldus PageMaker.</p>
+    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria
+        tipográfica e de impressos, e vem sendo utilizado
+        desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um
+        livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+        eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou
+        decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de
+        editoração eletrônica como Aldus PageMaker.</p>
+
+    <h1>Mudando a cor da fonte e o fundo de alguns elementos com css externo</h1>
+    <p class="fundo-azul texto-amarelo">Lorem Ipsum é simplesmente uma simulação de texto da indústria
+        tipográfica e de impressos, e vem sendo utilizado
+        desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um
+        livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+        eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou
+        decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de
+        editoração eletrônica como Aldus PageMaker.</p>
+    <p class="fundo-azul texto-amarelo">Lorem Ipsum é simplesmente uma simulação de texto da indústria
+        tipográfica e de impressos, e vem sendo utilizado
+        desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um
+        livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração
+        eletrônica, permanecendo essencialmente inalterado. Se popularizou na década de 60, quando a Letraset lançou
+        decalques contendo passagens de Lorem Ipsum, e mais recentemente quando passou a ser integrado a softwares de
+        editoração eletrônica como Aldus PageMaker.</p>
+    <!--Uma classe pode pertencer a vários elementos, sendo útil para modificar vários elementos de uma só vez. Já o id, pode pertencer apenas a um elemento-->
+
+    <h2>background-size:cover</h2>
+    <div class="imagem1"></div><br>
+    <h2> background-repeat: no-repeat;</h2>
+    <div class="imagem2"></div><br>
+    <h2>background-repeat: repeat-x;</h2>
+    <div class="imagem3"></div><br>
+    <h2>background-repeat: repeat-y;</h2>
+    <div class="imagem4"></div><br>
+
+    <div class="verde"></div><br>
+
+    <p>Fonte normal</p>
+    <p class="fonte-em">Fonte com 2em</p>
+
+    <p style="text-transform: capitalize;">Teste com text-transform:capitalize</p>
+    <!--O capitalize deixa todas as primeiras letras em maiúsculo-->
+    <p style="text-transform: lowercase;">Teste com text-transform:lowercase</p>
+    <!--O lowercase deixa todas as letras em minúsculo-->
+    <p style="text-transform: uppercase;">Teste com text-transform:uppercase</p>
+    <!--O uppercase deixa todas as letras em maiúsculo-->
+
+    <p style="text-decoration:underline;">Teste com text-decoration:underline</p> <!--O underline sublinha o texto-->
+    <p style="text-decoration: overline;">Teste com text-decoration:overline</p>
+    <!--O overline adiciona uma linha em cima do texto-->
+    <p style="text-decoration: line-through;">Teste com text-decoration:line-through</p>
+    <!--O line-through risca uma linha no texto-->
+
+    <p style="text-align:center;">Teste com text-align:center</p> <!--O center alinha o texto no centro-->
+    <p style="text-align: right;">Teste com text-align:rigth</p> <!--O rigth alinha o texto no canto direito-->
+    <p style="text-align: left;">Teste com text-align:left</p>
+    <!--O left deixa na forma padrão, alinhando no canto esquerdo-->
+    <p style="text-align: justify;">Teste com text-align:justify Lorem Ipsum is simply dummy text of the printing and
+        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+        unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
+        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        Why do we use it?
+        It is a long established fact that a reader will be distracted by the readable content of a page when looking at
+        its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+        opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+        packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum'
+        will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by
+        accident, sometimes on purpose (injected humour and the like).
+        Where does it come from?
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+        comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <!--O justify deixa o texto justificado-->
+
+    <p style="letter-spacing: 10px;">Teste com letter-spacing: 10px;</p>
+    <!--O letter-spacing altera o espaçamento entre as letras-->
+    <p style="word-spacing: 10px;">Teste com word-spacing: 10px;</p>
+    <!--O word-spacing altera o espeçamento entre as palavras-->
+    <p style="line-height: 2em;">Teste com line-height: 2em; Where does it come from?
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+        comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <!--O line-height altera o espaçamento entre as linhas-->
+
+    <p style="text-indent: 30px;">Teste com text-indent: 30px; Where does it come from?
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+        comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <!--O text-indent identa a primeira linha do parágrafo, dando um espaçamento-->
+
+    <div style="text-shadow: 2px 1px 10px black;">
+        <h1 style="color:blue">Sombra de Texto</h1>
+    </div>
+
+    <p style="font-style: italic;">Teste com font-style: italic; Where does it come from?
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+        comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <!--O font-style: italic; deixa a fonte toda em italico-->
+
+    <p style="font-weight: bold;">Teste com font-weight: bold; Where does it come from?
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+        comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <!--O font-weight: bold; deixa a fonte em negrito-->
+
+    <p style="font-variant: small-caps;">Teste com font-variant: small-caps; Where does it come from?
+        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney
+        College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+        going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+        comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
+        Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance.
+        The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+    <!--O font-variant: small-caps; deixa todas as letras em maiúsculo, porém, as que são por padrão maiúsculas possuem uma diferença-->
+
+    <div class="borda"></div>
+
+    <div class="overflow-teste">
+        <p>Teste com text-align:justify Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+            unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not
+            only
+            five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+            popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more
+            recently
+            with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            Why do we use it?
+            It is a long established fact that a reader will be distracted by the readable content of a page when
+            looking at
+            its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+            opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing
+            packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem
+            ipsum'
+            will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes
+            by
+            accident, sometimes on purpose (injected humour and the like).
+            Where does it come from?
+            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical
+            Latin
+            literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at
+            Hampden-Sydney
+            College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage,
+            and
+            going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum
+            comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil)
+            by
+            Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
+            Renaissance.
+            The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            Texto muito importante
+        </p>
+    </div>
+
+    <h1>Outro Título</h1>
+
+    <div class="teste-centralizar"></div>
+
+    <div class="centralizar-imagem">
+        <img src="imagens/BackgroundImage.png" alt="">
+    </div>
+
+    <a href="https://www.instagram.com/" target="_blank">Luis Eduardo</a>
+    <a href="https://www.instagram.com/" target="_blank">Luis Eduardo</a>
+
+    <ul>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <ol>
+        <li>Marcia</li>
+        <li>João</li>
+        <li>Marcelo</li>
+    </ol>
+
+</body>
+
+</html>
