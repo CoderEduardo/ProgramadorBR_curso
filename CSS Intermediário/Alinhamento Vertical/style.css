@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bilhete{
+    position: relative;
+    margin: auto;
+    width: 400px;
+    height: 200px;
+    border: solid black 2px;
+    text-align: center;
+}
+
+.card{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*Para alinha uma div na vertical basta colocar uma div pai com uma position relative, e o filho com absolute, logo depois colocar as posições 50% no left
+e top, e por último usar o transform:translate(-50%,-50%)*/
