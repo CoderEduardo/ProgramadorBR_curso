@@ -1,0 +1,28 @@
+.quadro{
+    width: 500px;
+    height: 500px;
+    border: solid black 1px;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-vermelho{
+    background-color: red;
+}
+
+.quadrado-azul{
+    background-color: blue;
+    position: relative;         /*O position:relative habilita outras propriedades, como o left e top, que podem ser utilizados para mover o objeto*/
+    left: 20px;
+    top: 20px;
+}
+
+.quadrado-verde{
+    background-color: green;
+}
+
+/*A diferença entre margin e postion:relative, é que a margin empurra todos os outros elementos junto com ela, já a postion:relative os sobrepõe*/
+/*A posição static é a propriedade natural dos elementos, sendo assim, usando essa propriedade, ela apenas vai manter o seu posicionamento padrão*/
