@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+    <style>
+        .borda{
+            border: solid red 1px;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <!--display:block separa os elementos por linhas diferentes
+        display:inline mantém os elementos na mesma linha, ao tentar mexer na altura e largura o css vai te ignorar
+        display:inline-block podemos manipular os elementos na mesma linha, podendo mexer na altura e largura
+        display:none trata o elemento como se ele não existisse-->
+
+    <div>Essa é uma div com um <span style="display: block;">span</span></div> <!--O display do span é naturalmento o inline, quando forçamos com o block 
+    ele é movido para outra linha-->
+
+    <div class="borda">Display <div style="display: inline-block;">inline-block</div></div>
+    <div class="borda">Display <div style="display: inline;">inline</div></div>
+    <div class="borda">Display <div style="display: block;">block</div></div>
+
+</body>
+</html>
