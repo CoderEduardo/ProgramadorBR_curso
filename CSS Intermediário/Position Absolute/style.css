@@ -1,0 +1,28 @@
+.quadro {
+    width: 500px;
+    height: 500px;
+    border: solid black 1px;
+    position: relative;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-vermelho {
+    background-color: red;
+}
+
+.quadrado-azul {
+    background-color: blue;
+    position: absolute;         /*Ao usar o posicionamento absolute, os outros elementos ocupam o antigo lugar desse objeto.*/
+    bottom: 0px;
+}
+
+.quadrado-verde {
+    background-color: green;
+}
+
+/*O poscionamento absolute não é relativo ao lugar que ele estava. Ele é relativo ao componente pai, desde que esse componentenão tenha o poscionamento
+static. Para ele pertener ao pai precisamos modficiar o estado do componente pai*/
