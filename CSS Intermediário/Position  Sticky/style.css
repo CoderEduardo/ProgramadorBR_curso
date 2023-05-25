@@ -1,0 +1,27 @@
+.quadro {
+    width: 500px;
+    height: 5000px;
+    border: solid black 1px;
+    position: relative;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-vermelho {
+    background-color: red;
+}
+
+.quadrado-azul {
+    background-color: blue;
+    position: sticky;
+    top: 0px;
+    /*O position sticky é quase igual ao fixed, a única diferença é que os outros elementos não ignoram ele, além disso ele só vai ficar fixo quando a
+    dimensão limitada chegar*/
+}
+
+.quadrado-verde {
+    background-color: green;
+}
