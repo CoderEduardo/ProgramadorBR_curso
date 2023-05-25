@@ -1,0 +1,25 @@
+img{
+    float: left;
+}
+
+.content{
+    border: solid black 1px;
+    overflow: auto;
+} /*Como o texto é maior que a div e os elementos estão flutuando, fica desproporcional ambos, para corrigir isso basta colocar um overflow:auto
+que o tamanho da div ficar do tamanho do maior elemento.*/
+
+/*O float faz com que o objeto flutue em qualquer direção. Quebrando os seus principios básicos de posicionamento*/
+
+/*A propriedade clear: limpa os efeitos no float em qualquer direção que você quiser. O clear:both limpa em todas as direções*/
+
+ul{
+    list-style: none;
+}
+
+li{
+    float: left;
+    border:solid black 2px;
+    padding: 10px;
+}
+
+/*Uma forma simples de se fazer um menu usando float*/
