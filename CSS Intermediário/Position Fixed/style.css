@@ -1,0 +1,27 @@
+.quadro {
+    width: 500px;
+    height: 4000px;
+    border: solid black 1px;
+    position: relative;
+}
+
+.quadrado {
+    width: 100px;
+    height: 100px;
+}
+
+.quadrado-vermelho {
+    background-color: red;
+}
+
+.quadrado-azul {
+    background-color: blue;
+    position: fixed;              
+    right: 0px;
+      /*O posicionamento fixed é totalmente relativo a view port, e somente a ela. Além disso o elemento fica fixo na tela, independente de quando você
+      role a página ou mexa sua janela, ele sempre ficara no mesmo lugar*/
+}
+
+.quadrado-verde {
+    background-color: green;
+}
