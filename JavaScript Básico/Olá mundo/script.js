@@ -1,0 +1,1 @@
+alert("Olá mundo") //O alert exibe uma mensagem no topo da página 
