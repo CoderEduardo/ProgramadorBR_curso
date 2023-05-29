@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    background-color:rgb(17, 160, 226);
+}
+
+h2{
+    margin: 0;
+    padding: 15px;
+}
+
+main{
+    width: 100%;
+    height: 550px;
+    background-image: url("images/people.jpg");
+    background-size: cover;
+}
+
+.card{
+    width: 300px;
+    height: 470px;
+    margin: 25px;
+    padding: 15px;
+    float:right;
+    background-color: #FFFFFFBB;
+    text-align:inherit;
+}
+
+.card h3{
+    text-transform: uppercase;
+}
+
+.card p{
+    font-size: 1.05rem;
+    text-align: inherit;
+    color: black;
+}
+
+.formulario{
+   width: 270px;
+   margin: auto;
+}
+
+input,select{
+    width: 100%;
+    box-sizing: border-box; /*Importante colocar para diminuir a diferença entre as outras caixas*/
+    padding: 10px;
+    margin: 7px;
+    border: 0px;
+}
+
+.botao{
+    background-color: rgb(17, 160, 226);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+.palestrante{
+    width: 1000px;
+    background-color: #302f2f;
+    overflow: auto;
+}
+
+.image-rosto{
+    width: 300px;
+    padding: 50px;
+    float: left;
+}
+
+image-rosto, img{
+    float: right;
+}
+
+.palestrante h2{
+    color: white;
+}
+
+.palestrante img{
+    width: 150px;
+}
+
+.palestrante p{
+    font-size: 0.95rem;
+}
+
+.texto{
+    width: 350px;
+    float: left;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+.texto p{
+    color: white;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;  /*Essas três prorpiedades são iguais, porém elas são utilizadas para ter certeza que os navegadores vão entender*/
+
+    background-image: url("images/arrow.jpg");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center; /*O primeiro pârametro calcula o eixo X e o segundo alinha o eixo Y*/
+}
+
+@media screen and (max-width:415px) {
+
+    header{
+       font-size: 2.3rem;
+    }
+
+    h2{
+        margin: 0px;
+        padding: 20px;
+    }
+
+    main{
+      height: 1500px;
+      float: left;
+    }
+
+    .card{
+        width: 90%;
+        height: 1500px;
+        padding: 25px;
+        float: left;
+        background-color: #FFFFFFBB;
+        text-align:center;
+    }
+
+    .card h3{
+       font-size: 4rem;
+       text-align: center;
+    }
+
+    .card p{
+        font-size: 4rem;
+        text-align: left;
+        color: black;
+    }
+
+    .formulario{
+        width: 900px;
+     }
+
+     input,select{
+        width: 100%;
+        box-sizing: border-box; /*Importante colocar para diminuir a diferença entre as outras caixas*/
+        padding: 35px;
+        margin:10px;
+        font-size: 3rem;
+        border: 0px;
+    }
+
+    .botao{
+        font-size: 3rem;
+    }
+
+    select{
+        background-size: 50px;
+    }
+
+    .palestrante{
+        margin-top: 1580px;
+    }
+
+    .image-rosto{
+        width: 800px;
+        padding: 0px;
+        float: none;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    .texto{
+        width: 100%;
+        float: none;
+        font-size: 3.5rem;
+    }
+
+    .palestrante img{
+        width: 600px;
+    }
+
+    .texto p{
+        font-size: 3rem;
+    }
+    .palestrante h2{
+       text-align: center;
+       margin: 100px;
+    }
+
+  
+
+}
+
