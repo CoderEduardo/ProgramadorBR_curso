@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    width: 500px;
+    height: 500px;
+    border: solid #98c3c375 1px;
+    background-color: #98c3c375;
+    margin: auto;
+}
+
+.main,h1{
+    text-align: center;
+}
+
+input{
+    display: block;
+   
+    width: 80%;
+    padding: 15px;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    box-sizing: border-box;
+}
+
+button{
+    padding: 15px;
+    margin-left: 10%;
+    font-size: 1.1rem;
+}
+
+p{
+   margin-left: 10%;
+   font-size: 1.2rem;
+}
