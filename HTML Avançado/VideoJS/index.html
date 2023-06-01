@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Controlando Video com JS</title>
+</head>
+
+<body>
+
+    <div class="container" id="container">
+        <video id="video" src="video/tesla-bot-update.mp4" poster="imagens/tesla.jpg"></video>
+        <div id="controle" class="controle">
+            <img class="btn" onclick="retroceder()" src="icons/gobackward-15.svg" alt="">
+            <img class="btn" onclick="diminuir_vel()" src="icons/minus.svg" alt="">
+            <img class="btn" onclick="parar()" src="icons/stop.svg" alt="">
+            <img class="btn" onclick="iniciar()" src="icons/play.svg" alt="">
+            <img class="btn" onclick="aumentar_vel()" src="icons/add.svg" alt="">
+            <img class="btn" onclick="avancar()" src="icons/goforward-15.svg" alt="">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
