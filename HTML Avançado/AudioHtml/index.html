@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Audio</title>
+</head>
+
+<body>
+
+    <!--É importante fazer dessa forma, pois caso um audio não funcione, temos outro de backup-->
+
+    <div class="reprodutor-audio">
+        <audio id="audio">
+            <source src="audio/baby-youre-a-rich-man.mp3" type="audio/mpeg">
+            <source src="audio/baby-youre-a-rich-man.wav" type="audio/wav">
+        </audio>
+
+        <img class="btn" onclick="diminuir_vel()" src="icons/minus.svg" alt="">
+        <img class="btn" onclick="voltar_15()" src="icons/gobackward-15.svg" alt="">
+        <img class="btn" onclick="pause()" src="icons/pause.svg" alt="">
+        <img class="btn" onclick="play()" src="icons/play.svg" alt="">
+        <img class="btn" onclick="recomecar()" src="icons/stop.svg" alt="">
+        <img class="btn" onclick="avancar_15()" src="icons/goforward-15.svg" alt="">
+        <img class="btn" onclick="aumentar_vel()" src="icons/add.svg" alt="">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

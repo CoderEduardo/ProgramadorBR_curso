@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reprodutor-audio{
+  border: solid black 1px;
+  text-align: center;
+  width: 40%;
+  margin:auto;
+}
+
+.btn{
+    width: 40px;
+    padding: 15px;
+}
