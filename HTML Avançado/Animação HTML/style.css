@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+.tela {
+    position: relative;
+    width: 750px;
+    height: 750px;
+    background-color: beige;
+    margin: auto;
+    overflow: hidden;
+}
+
+.quadrado{
+    position: absolute;
+    top: 325px;
+    left: 350px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+} 
+
+.controles{
+    margin-top: 25px;
+    position:relative;
+    left: 48.5%;
+}
+
+.icon{
+    width: 50px;
+}
+
+.top{
+    position: absolute;
+}
+
+.direita{
+   transform: rotate(180deg);
+   position: absolute;
+   top: 50px;
+   left: 50px;
+}
+
+.esquerda{
+    position:absolute;
+    top: 50px;
+    left: -50px;
+}
+
+.down{
+    position: absolute;
+    top: 100px;
+}
