@@ -36,18 +36,22 @@ let tecla = ""
 
 function moverComTeclado() {
     tecla = event.keyCode
-    if (tecla == 38) {
-        moverJogador(xInicial -= 20, yInicial)
+
+    switch (tecla) {
+        case 38:
+            moverJogador(xInicial -= 20, yInicial)
+            break
+        case 39:
+            moverJogador(xInicial, yInicial += 20)
+            break
+        case 40:
+            moverJogador(xInicial += 20, yInicial)
+            break
+        case 37:
+            moverJogador(xInicial, yInicial -= 20)
+            break
     }
-    else if (tecla == 39) {
-        moverJogador(xInicial, yInicial += 20)
-    }
-    else if (tecla == 40) {
-        moverJogador(xInicial += 20, yInicial)
-    }
-    else if (tecla == 37) {
-        moverJogador(xInicial, yInicial -= 20)
-    }
+
 }
 
 
