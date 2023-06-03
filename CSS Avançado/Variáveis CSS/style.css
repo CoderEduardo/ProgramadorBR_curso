@@ -1,0 +1,15 @@
+/*Para criar uma variável no css precisamos abrir o :root{}, e depois digitar --var- e colocar o nome da variável com o seu valor*/
+/*Essa variável também pode ser um número*/
+:root{
+    --var-color:red;
+}
+
+.p2{
+    color: var(--var-color);
+    font-size: 1.2rem;
+}
+
+.p3{
+    color: var(--var-color);
+    font-size: 1.5rem;
+}
