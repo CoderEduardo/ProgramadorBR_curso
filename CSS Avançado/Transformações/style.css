@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    /*Rotacionando uma imagem, passamos o valor em graus(deg)*/
+    transform: rotate(180deg) scale(0.5);
+
+    /*transform: rotate(180deg) scale(0.5); Para usar mais de uma propriedade no transfotm é só passar elas uma do lado da outra*/
+
+    /*Redimensionando o tamanho da imagem respectivamente ao tamanho original
+    transform: scale(0.5);  metade do tamanho da imagem
+    */
+
+    /*Distorcendo uma imagem em 45 graus, pois, as vértices da imagem fazem uma desenho de 45 graus
+    transform: skew(45deg);
+    */
+}
