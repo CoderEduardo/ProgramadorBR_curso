@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: blue;
+}
+
+.primeira {
+    width: calc(100% - 60px);
+    /*Dessa forma conseguimos definir que a div vai ocupar 100% da tela - 60px, definindo um valor exatado do canto*/
+    height: 100px;
+    background-color: yellow;
+    margin: auto;
+}
