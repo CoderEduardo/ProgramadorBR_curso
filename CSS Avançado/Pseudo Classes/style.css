@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Executa o estilo quando um elemento é focado*/
+input:focus{
+    color: red;
+}
+
+/*Faz com que o primeiro elemento do li tenha esse estilo*/
+/*
+li:first-child{
+    color:blueviolet;
+}*/
+
+/*Faz com que primeiro elemento do seu tipo receba esse Estilo
+li:first-of-type{
+    color:blueviolet;
+}*/
+
+/*Faz com que o item do índice receba o estilo
+li:nth-child(2){
+    color:blueviolet;
+}*/
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    padding: 15px;
+    font-size:1.5em ;
+}
+
+/*Seleciona todos os números pares*/
+li:nth-of-type(even){
+    background-color: black;
+    color: white;
+}
+
+/*Seleciona todos os números ímpares*/
+li:nth-of-type(odd){
+    background-color: white;
+    color: black;
+}
