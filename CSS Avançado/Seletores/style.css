@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*Com a vírgula podemos selecionar todos os elementos que estão nessa classe, aplicando os atributos a todos elementos selecionados
+
+div,header{                    //Aplica na div e no header
+    background-color: green;
+}
+
+.p2,.p3{                      //Aplica no p2 e p3
+    background-color: red;
+}*/
+
+/*Quando temos dois elementos dessa forma, sem nada no meio deles, selecionamos todos elementos da direita que estão dentro do elemento da esquerda e 
+aplicamos estilo a eles*/
+div p {                             /*Selecionamos todos os elementos p que estão dentro de uma div e aplicamos esse estilo neles*/
+    background-color: green;
+}
+
+/* Selecionada um elemento p que estão depois de uma div
+div + p {
+
+}*/
+
+/*Seleciona todos os elementos p que estão depois de uma div
+div ~ p {
+
+}*/
+
+/*Seleciona todos os elementos que possuem um atrbituo width*/
+[width]{
+    background-color: blueviolet;
+}
