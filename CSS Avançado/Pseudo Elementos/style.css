@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Pseudos Elementos são capazes de modifciar apenas uma parte da sua tag*/
+
+/*::first-line Modifica apenas a primeira linha da sua tag*/
+.primeira-linha::first-line{
+    color: red;
+}
+
+
+.primeira-letra::first-letter{
+    color: blue;
+    font-size: 1.2rem;
+}
+
+ul{
+    list-style: none;
+}
+
+/*::before define o que vai aparecer antes do seu elemento*/
+/*li::before{
+    content: "AAA";
+}*/
+
+/*Conseguimos colocar uma imagem ao lado da nossa lista, conseguindo redimensionar ela.*/
+li::before{
+    content: "";
+    display: inline-block; /*Eu preciso do display:inline-block, pois quando o coloco, ele me permite alterar atributos do tamanho do meu li*/
+    width: 30px;
+    height: 30px;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2991/2991148.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/*O ::after possuia a mesma lógica do before, a diferença é que ele vem depois do elemento
+::after{
+
+}*/
+
+/*Executa esses atributos quando o mouse está selecionando um parágrafo*/
+p::selection{
+    background-color: yellow;
+    color:red;
+}
