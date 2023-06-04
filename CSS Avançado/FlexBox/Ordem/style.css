@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Podemos modificar a ordem dos elementos sem mexer no html
+Para fazer isso usamos o atributo order nos componentes filhos
+*/
+
+.container {
+    display: flex;
+    background-color: darkgray;
+    color: white;
+}
+
+.r1 {
+    /*Modificando a ordem*/
+    order: 3;
+    background-color: red;
+}
+
+.r2 {
+    /*Modificando a ordem*/
+    order: 1;
+    background-color: blue;
+}
+
+.r3 {
+    /*Modificando a ordem*/
+    order: 2;
+    background-color: green;
+}
+
+.rect {
+    width: 500px;
+    height: 500px;
+}
