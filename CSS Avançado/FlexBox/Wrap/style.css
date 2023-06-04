@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    /*O flex-wrap:wrap faz com que os elementos matenham o seu tamanho real, jogando o elemento que não está mais cabendo na tela para baixo*/
+    flex-wrap: wrap;
+    background-color: darkgray;
+    color: white;
+}
+
+.r1{
+    background-color: red;
+}
+
+.r2{
+    background-color: blue;
+}
+
+.r3{
+    background-color: green;
+}
+
+.rect{
+    width: 500px;
+    height: 500px;
+}
