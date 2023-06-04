@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    color: white;
+    /*Define o display grid*/
+    display: grid;
+    /*Define o número de colunas e os seus tamanhos*/
+    grid-template-columns: 1fr 3fr 1fr;
+    /*Define o número de linhas e os seus tamanhos*/
+    grid-template-rows: auto auto;
+
+    /*Podemos usar tudo em uma única linha
+    Passando primeiro o valor das linhas, e depois das colunas
+    grid-template: auto auto / 1fr 3fr 1fr;
+    */
+
+    padding: 10px;
+    background-color: black;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {}
+
+/*fr é uma medida específica para grid, onde ela representa uma fração*/
