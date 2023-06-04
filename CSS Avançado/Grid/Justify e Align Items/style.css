@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 500px;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    /*Alinha os itens na horizontal*/
+    justify-items: center;
+    /*Alinha os itens na vértical*/
+    align-items: center;
+    grid-gap: 10px;
+    padding: 10px;
+    background-color: gray;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect{
+    width: 100px;
+    height: 100px;
+}
+
