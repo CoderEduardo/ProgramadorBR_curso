@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 1000px;
+    display: flex;
+
+    /*Para os exemplos consideramos o flex-direction como row*/
+
+    /*justify-content: end;  alinha todos elementos ao final */
+    /*justify-content: center;  alinha todos os elementos no centro*/
+    /*justify-content: space-between;  alinha todos os elementos criando um espaço entre eles*/
+    /*justify-content: space-around;  alinha todos os elementos criando um espaço entre eles e os cantos da tela*/
+    /*justify-content: space-evenly; alinha todos os elementos criando um espeço entre eles e os cantos da tela, mantendo um espaçamento totalmente igual*/
+
+    /*O justify-content: vai alinhar os itens ao eixo padrão. E o align-itens vai alinhar os itens ao eixo contrário do padrão.
+    Se o flex-direction é row, o justify-content: vai alinhar os itens na linha horizontal, e o align-itens na linha vértical.
+    E se o flex-direction é column, o justify-content vai alinhar os itens na linha vértical, e o align-itens na linha horizontal. */
+
+    /*align-items: center;  alinha todos os elementos vértical*/
+    /*align-items: end;  alinha todos os elementos no fim da vértical*/
+    background-color: darkgray;
+    color: white;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    width: 500px;
+    height: 500px;
+}
