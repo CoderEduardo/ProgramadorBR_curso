@@ -26,7 +26,6 @@ header h1 {
 
 ul {
     display: flex;
-
 }
 
 li {
@@ -84,28 +83,43 @@ main {
 @media screen and (max-width:760px) {
     main {
         flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0;
+        padding-top: 0px;
+    }
+
+    .imagens {
+        width: 100%;
+    }
+
+    
+    .sobre h1,.container h1{
+        text-align: center;
     }
 
     .sobre {
-        width: 50%;
-        align-items: center;
-        align-content: space-around;
+        width: 100%;
+        text-align: center;
+        padding: 15px;
     }
+
+
+   
 }
 
-@media screen and (max-width:440px) {
+@media screen and (max-width:505px) {
 
     header {
         display: flex;
         flex-direction: column;
     }
 
-    .container {
-        width: 800px;
-        margin: auto;
-        padding-top: 0px;
+    ul {
+        padding-left: 0px;
+        justify-content: space-evenly;
     }
-   
-
-
 }
