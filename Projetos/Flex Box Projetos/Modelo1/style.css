@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "Nocken";
+    src: url(fonts/NockenMedium-7Bdql-BF647d44a6133b4.ttf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Nocken;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    background-color: #00bfff;
+    height: 10vh;
+}
+
+header,.c1,.c2,.c3,footer{
+    padding: 1em;
+}
+
+main{
+    display: flex;
+    height: 80vh;
+}
+
+.c1{
+    background-color: #6f1abd;
+    width: 50%;
+}
+
+.c2{
+    background-color: #deb887;
+    width: 25%;
+}
+
+.c3{
+    background-color: #e38430;
+    width: 25%;
+}
+
