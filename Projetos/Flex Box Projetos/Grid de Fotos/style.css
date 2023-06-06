@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+.image1,.image2,.image3{
+    margin: 25px;
+}
+
+.image1 {
+    width: 45vw;
+    background-image: url(images/gato1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+}
+
+.content {
+    width: 55vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.image2 {
+    height: 50vh;
+    background-image: url(images/gato2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    display: flex;
+}
+
+.image3 {
+    height: 50vh;
+    background-image: url(images/gato3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    font-family: 'Shadows Into Light', cursive;
+    display: flex;
+}
+
+.image1 h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 4rem;
+    margin: 0px;
+}
+
+.image2 .image3, h2{
+    font-family: 'Shadows Into Light', cursive;
+    color: white;
+    font-size: 3rem;
+    margin: 0px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin: 0px;
+    margin-bottom: 20px;
+}
+
+.image1 .texto{
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.image2 .image3 ,.texto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding-left:20px ;
+}
+
+@media screen and (max-width:1200px){
+
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .image1 {
+        width:90%;
+        height: 90%;
+        background-size: cover;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    .content {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .image2,.image3{
+        margin: 25px;
+        margin-top: 100px;
+    }
+
+    
+
+    
+
+}
