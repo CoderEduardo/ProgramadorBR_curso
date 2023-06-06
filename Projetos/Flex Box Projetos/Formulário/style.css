@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+    background-color: #e4ece4;
+}
+
+.container {
+    width: 100%;
+    margin-top: 250px;
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email {
+    margin-top: 50px;
+    width: 60vw;
+    background-color: #e4ece4;
+    text-align: center;
+    border: 0px;
+    border-bottom: 1.5px solid black;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.email:focus {
+    border: 0px;
+    outline: 0;
+    border-bottom: 1.5px solid black;
+}
+
+.btn {
+    margin-top: 60px;
+    color: white;
+    background-color: black;
+    font-size: 1.3rem;
+    font-weight: 200;
+    width: 200px;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    height: 400px;
+    width: 94%;
+}
+
+li img {
+    width: 50px;
+}
+
+li p {
+    color: gray;
+    padding: 0px;
+    margin: 0px;
+}
+
+li h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+@media screen and (max-width:440px) {
+    .container {
+        margin-top: 25px;
+
+    }
+
+    .email {
+        width: 90%;
+    }
+
+    .btn {
+        width: 95%;
+
+    }
+
+    li {
+        width: 80%;
+        padding-top: 25px;
+    }
+}
