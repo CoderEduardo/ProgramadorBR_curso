@@ -100,5 +100,7 @@ li h3 {
     li {
         width: 80%;
         padding-top: 25px;
+        padding-bottom: 25px;
+        margin-right: 60px;
     }
 }
