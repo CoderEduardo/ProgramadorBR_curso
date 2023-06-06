@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
+    display: flex;
+    width: 400px;
+    height: 50vh;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin: 20px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.img1 {
+    background-image: url(images/pessoa1.jpg);
+}
+
+.img2 {
+    background-image: url(images/pessoa2.jpg);
+}
+
+.img3 {
+    background-image: url(images/pessoa3.jpg);
+}
+
+.img4 {
+    background-image: url(images/pessoa4.jpg);
+}
+
+.img5 {
+    background-image: url(images/pessoa5.jpg);
+}
+
+.img6 {
+    background-image: url(images/pessoa6.jpg);
+}
+
+.img7 {
+    background-image: url(images/pessoa7.jpg);
+}
+
+.img8 {
+    background-image: url(images/pessoa8.jpg);
+}
+
