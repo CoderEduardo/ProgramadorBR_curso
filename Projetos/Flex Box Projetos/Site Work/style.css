@@ -1,0 +1,211 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row{
+    display: flex;
+}
+
+.barra-lateral{
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barra-lateral p, li{
+    color: #868686;
+}
+
+.logo{
+    text-align: center;
+}
+
+.logo > p, h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    height: 250px;
+    display: flex;
+}
+
+nav ul{
+    list-style: none;
+    font-size:1.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer{
+    margin-bottom: 10px;
+}
+
+footer p{
+    margin: 0px;
+    padding: 0px;
+    padding-left: 35px;
+}
+
+main{
+    width: 80%;
+    height: 100vh;
+    background-image: url(image/fundo.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.link{
+    font-size: 1.2rem;
+    padding-right: 20px;
+}
+
+.link span{
+    font-weight: bold;
+}
+
+.link a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+}
+
+.link a:hover{
+    background-color: black;
+    border-radius:5px;
+}
+
+.texto{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 90vh;
+    width: 600px;
+    margin-left: 100px;
+}
+
+.texto h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.texto p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.menu{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar li{
+    list-style: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.logo2{
+    font-weight: bold;
+}
+
+.nav-bar{
+    visibility: hidden;
+}
+
+@media screen and (max-width:1000px) {
+    
+    .barra-lateral{
+       display: none;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    .nav-bar{
+        visibility: visible;
+        
+    }
+
+    .nav-bar li{
+        padding-left: 50px;
+    }
+
+}
+
+@media screen and (max-width:925px) {
+   
+    .nav-bar ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        height: 35vh;
+
+    }
+
+    .nav-bar li{
+        padding: 5px;
+        font-size: 2rem;
+    }
+
+    .texto{
+        justify-content: center;
+        height: 65vh;
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .texto p{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: 300;
+    }
+
+    .texto h1{
+        font-size: 4rem;
+        font-weight: 600;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:440px) {
+   
+
+    .nav-bar li{
+        padding: 0px;
+        font-size: 1.5rem;
+        font-weight: 700
+    }
+    
+    .texto p{
+        font-weight: 600;
+    }
+
+    .texto h1{
+        font-weight: 800;
+    }
+
+}
+
+
+
