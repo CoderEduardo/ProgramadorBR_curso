@@ -25,6 +25,12 @@ function inserirUsuarios(nome){
 
 }
 
-inserirUsuarios("Ana").then(listarUsuarios).catch((error) => {
-    console.log(error)
-})  
+/*O Async Await facilita a nossa vida na hora de executar a função*/
+/*Uma função Async Await força com que a função fique esperando tudo nela ser concluido, para ai sim ela ser executada*/
+
+async function executar(){
+    await inserirUsuarios("Ana")
+    listarUsuarios()
+}
+
+executar()
