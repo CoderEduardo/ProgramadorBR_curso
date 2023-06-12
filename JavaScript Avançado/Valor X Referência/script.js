@@ -1,3 +1,5 @@
+/*Criando uma programa em js que pega a média de quatro turmar e faz uma média geral das salas*/
+
 let turma1 = [10, 5, 8, 6, 7]
 let turma2 = [8, 1, 10, 2, 4]
 let turma3 = [5, 2, 1, 7, 8]
