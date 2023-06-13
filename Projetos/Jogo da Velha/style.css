@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.tabuleiro{
+    margin: auto;
+    width: 800px;
+    height: 800px;
+}
+
+.row{
+    display: flex;
+    margin: 5px;
+}
+
+.column{
+    width: 250px;
+    height: 250px;
+    border: solid black 2px;
+    box-sizing: border-box;
+    margin: 5px;
+}
+
+.o{
+
+}
+
+.o::after{
+    content: "\🛡️";
+    font-size: 150px;
+    line-height: 250px;
+}
+
+.x{
+
+}
+
+.x::after{
+    content: "\⚔️";
+    font-size: 130px;
+    line-height: 250px;
+}
