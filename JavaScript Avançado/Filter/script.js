@@ -11,7 +11,7 @@ let alunos = [
     novoAluno("José",55)
 ]
 
-/*Uma das formas de filtrar um Array é passando uma função por callback e usar o .finter*/
+/*Uma das formas de filtrar um Array é passando uma função por callback e usar o .filter*/
 
 function menosDe30(aluno){
     return aluno.idade < 30
